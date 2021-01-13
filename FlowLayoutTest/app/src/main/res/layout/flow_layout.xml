@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="86dp"
+    android:layout_marginRight="86dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.flowlayouttest.ItemView
+            android:id="@+id/flowlayout_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:tag="flowlayout_red"
+            item:iconHeight="236dp"
+            item:iconWidth="405dp"
+            item:imageNormalbg="@drawable/icon_red"
+            item:titleText="Test"
+            item:titleTextColor="@android:color/white"
+            item:titleTextSize="16sp" />
+
+        <com.example.flowlayouttest.ItemView
+            android:id="@+id/flowlayout_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:scaleType="fitXY"
+            android:tag="flowlayout_green"
+            item:iconHeight="236dp"
+            item:iconWidth="405dp"
+            item:imageNormalbg="@drawable/icon_green"
+            item:titleText="Test"
+            item:titleTextColor="@android:color/white"
+            item:titleTextSize="16sp" />
+
+        <com.example.flowlayouttest.ItemView
+            android:id="@+id/flowlayout_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:tag="flowlayout_blue"
+            item:iconHeight="236dp"
+            item:iconWidth="405dp"
+            item:imageNormalbg="@drawable/icon_blue"
+            item:titleText="Test"
+            item:titleTextColor="@android:color/white"
+            item:titleTextSize="16sp" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/flowlayout_outline"
+        android:layout_width="506dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/shape_radius" />
+
+</FrameLayout>

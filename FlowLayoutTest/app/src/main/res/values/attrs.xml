@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="iconWidth" format="dimension" />
+    <attr name="iconHeight" format="dimension" />
+    <attr name="itemWidth" format="dimension" />
+    <attr name="itemHeight" format="dimension" />
+    <attr name="image" format="reference" />
+    <attr name="imageNormalbg" format="reference" />
+    <attr name="imageFocusedbg" format="reference" />
+
+    <declare-styleable name="IconView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+        <attr name="iconWidth" />
+        <attr name="iconHeight" />
+        <attr name="imageNormalbg" />
+        <attr name="imageFocusedbg" />
+    </declare-styleable>
+
+</resources>
